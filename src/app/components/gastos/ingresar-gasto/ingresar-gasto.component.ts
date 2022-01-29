@@ -12,6 +12,7 @@ export class IngresarGastoComponent implements OnInit {
   formularioIncorrecto: boolean;
   textIncorrecto: string;
 
+
   constructor(private _presupuestoService: PresupuestoService) { 
     this.nombreGasto = '';
     this.cantidad = 0;

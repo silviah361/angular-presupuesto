@@ -11,6 +11,7 @@ import { GastosComponent } from './components/gastos/gastos.component';
 import { IngresarPresupuestoComponent } from './components/ingresar-presupuesto/ingresar-presupuesto.component';
 import { IngresarGastoComponent } from './components/gastos/ingresar-gasto/ingresar-gasto.component';
 import { ListarGastoComponent } from './components/gastos/listar-gasto/listar-gasto.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ListarGastoComponent } from './components/gastos/listar-gasto/listar-ga
     GastosComponent,
     IngresarPresupuestoComponent,
     IngresarGastoComponent,
-    ListarGastoComponent
+    ListarGastoComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

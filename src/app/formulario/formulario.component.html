@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h6>Cuentanos qué te parece nuestra tabla de presupuestos</h6>
+            <button type="button" class="btn btn-secondary" (click)="pulsado()">Click aquí</button>
+        </div>
+    </div>
+
+    <div class="row" >
+        <div class="col" [hidden]="escondido">
+            <label for="customRange2" class="form-label">Satisfacción</label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Escribe aquí</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Danos tu opinión"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <button type="button" class="btn btn-secondary" (click)="enviar()">enviar</button>
+            </div>
+        </div>
+    </div>
+</div>
